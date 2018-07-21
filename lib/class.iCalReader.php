@@ -14,7 +14,7 @@
  *           print_r( $ical->event() );
  */
 
-//namespace ICal;
+namespace ICal;
 
 class ICal
 {
@@ -42,6 +42,8 @@ class ICal
         if (!$filename) {
             return false;
         }
+
+        ini_set('auto_detect_line_endings', '1');
         
         $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         

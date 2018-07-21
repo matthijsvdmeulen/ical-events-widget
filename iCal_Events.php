@@ -29,6 +29,8 @@
 
 define('ICAL_EVENTS_VERSION', '0.1');
 
+use ICal\ICal;
+
 class iCal_Events extends WP_Widget {
 	private	/** @type {string} */ $widgetFilePath;
 	private /** @type {string} */ $libPath;
@@ -54,7 +56,7 @@ class iCal_Events extends WP_Widget {
     
 		if (!file_exists( $this->libPath.'class.iCalReader.php' )) return false;
 		require_once( $this->libPath.'class.iCalReader.php' );
-		
+
 	    if (!file_exists( $this->libPath.'class.Template.php' )) return false;
 	    require_once( $this->libPath.'class.Template.php' );
 
