@@ -1,7 +1,5 @@
 # ical-events-widget
-Shows you upcoming events for a configurable iCal .ics file or URL.
 
-=== iCal Events Widget ===
 Contributors: matthijsvdmeulen, phranck
 Donate link: http://jmvdmeulen.nl
 Tags: icalendar, ical, plugin, widget, events, rfc2445, iCalEvents, ics, Google Calendar
@@ -12,7 +10,7 @@ Stable tag: 1.0
 This widget shows you upcoming events for a configurable iCal .ics file or URL.
 
 
-== Description ==
+# Description
 
 This widget shows you upcoming events for a configurable iCal .ics file or URL. There are a few options you can set like:
 
@@ -27,14 +25,14 @@ This widget shows you upcoming events for a configurable iCal .ics file or URL. 
 * Setting up a range of dates that events will be shown
 
 
-= Translations =
+# Translations
 * English
 * German
 * French
 * Dutch
 
 
-== Installation ==
+# Installation
 
 This section describes how to install the plugin and get it working.
 
@@ -43,19 +41,15 @@ This section describes how to install the plugin and get it working.
 3. Go to the 'Widgets' menue in WordPress and put it on the right place of your sidebar
 
 
-== Frequently Asked Questions ==
 
-n/a
-
-
-== Screenshots ==
+# Screenshots
 
 1. Widget options in your WordPress Admin
 2. The active Datepicker for selecting a date range
 3. Widget in action in your sidebar
 
 
-== Changelog ==
+# Changelog
 
 = 0.4.0 =
 * Major fixes for newer wordpress version
@@ -84,12 +78,8 @@ n/a
 * The very first version.
 	
 
-== Upgrade Notice ==
 
-n/a
-
-
-== Notes ==
+# Notes
 
 The package of this plugin is available for download at:
 http://downloads.wordpress.org/plugin/icalendar-events-widget.zip
