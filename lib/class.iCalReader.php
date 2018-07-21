@@ -8,13 +8,13 @@
  * @package  Ics-parser
  * @author   Martin Thoma <info@martin-thoma.de>
  * @license  http://www.opensource.org/licenses/mit-license.php  MIT License
- * @version  SVN: <svn_id>
+ * @version  2
  * @link     http://code.google.com/p/ics-parser/
  * @example  $ical = new ical('MyCal.ics');
  *           print_r( $ical->event() );
  */
 
-//namespace ICal;
+namespace ICal;
 
 class ICal
 {
@@ -42,6 +42,8 @@ class ICal
         if (!$filename) {
             return false;
         }
+
+        ini_set('auto_detect_line_endings', '1');
         
         $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         
@@ -228,7 +230,7 @@ class ICal
     }
 
     /**
-     * Returns a boolean value whether thr current calendar has events or not
+     * Returns a boolean value whether the current calendar has events or not
      *
      * @return {boolean}
      */

@@ -1,27 +1,26 @@
-=== iCalendar Events Widget ===
-Contributors: phranck
-Donate link: http://programmschmie.de/
-Tags: icalendar, ical, plugin, widget, events, rfc2445, iCalEvents
+=== iCal Events Widget ===
+Contributors: matthijsvdmeulen, phranck
+Donate link: http://jmvdmeulen.nl
+Tags: icalendar, ical, plugin, widget, events, rfc2445, iCalEvents, ics, Google Calendar
 Requires at least: 3.1
-Tested up to: 3.2.1
+Tested up to: 4.9.7
 Stable tag: 1.0
 
-This widget shows you upcoming events for a configurable iCalendar .ics file.
+This widget shows you upcoming events for a configurable iCal .ics file or URL.
 
 
 == Description ==
 
-This widget shows you upcoming events for a configurable iCalendar .ics file. There are a few options you can set like:
+This widget shows you upcoming events for a configurable iCal .ics file or URL. There are a few options you can set like:
 
 * Title of the widget when it's visible in your sidebar
 * Subscription URL to your iCalendar .ics file
 * Number of events to show
-* Switch on/off event summary
+* Switch on/off event summary/title
 * Switch on/off event start/end date
 * Switch on/off event start/end time
 * Switch on/off event description
 * Switch on/off event location
-* Switch on/off event URL
 * Setting up a range of dates that events will be shown
 
 
@@ -29,13 +28,14 @@ This widget shows you upcoming events for a configurable iCalendar .ics file. Th
 * English
 * German
 * French
+* Dutch
 
 
 == Installation ==
 
 This section describes how to install the plugin and get it working.
 
-1. Upload the complete 'icalendar-events-widget/' directory to '/wp-content/plugins/' directory of your active theme
+1. Upload the complete 'ical-events-widget/' directory to '/wp-content/plugins/' directory of your active theme
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to the 'Widgets' menue in WordPress and put it on the right place of your sidebar
 
@@ -53,6 +53,10 @@ n/a
 
 
 == Changelog ==
+
+= 0.4.0 =
+* Major fixes for newer wordpress version
+* Added Dutch translation
 
 = 0.3.3 =
 * added french translation
@@ -101,4 +105,4 @@ Normally you will select a "range date-to" greater than the "range date-from". B
 == Customization ==
 
 
-Please check the **icalendar.css** file for style customization and the templates in the templates folder for styling options.
+Please check the **iCal_Events.css** file for style customization and the templates in the templates folder for styling options.
