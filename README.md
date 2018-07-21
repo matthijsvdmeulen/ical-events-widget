@@ -1,4 +1,4 @@
-# ical-events-widget
+# iCal Events Widget
 
 Contributors: matthijsvdmeulen, phranck
 Donate link: http://jmvdmeulen.nl
@@ -26,6 +26,7 @@ This widget shows you upcoming events for a configurable iCal .ics file or URL. 
 
 
 # Translations
+
 * English
 * German
 * French
@@ -90,12 +91,12 @@ This widget makes (in some topics partially) use of:
 - the [jQuery UI-Datepicker plugin](http://jqueryui.com/demos/datepicker/)
 - the [DateJS - Javascript Date Library](http://www.datejs.com/)
 
-= Good to know =
+# Good to know
+
 Normally you will select a "range date-to" greater than the "range date-from". But, if you set the "range date-to" lesser than the "range date-from" 
 (or lesser than the current date, if "range date-from" is empty), then the list of events to show will be given in reverse order (aka descending).
 
 
-== Customization ==
-
+# Customization
 
 Please check the **iCal_Events.css** file for style customization and the templates in the templates folder for styling options.
