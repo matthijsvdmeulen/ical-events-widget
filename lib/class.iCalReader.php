@@ -48,7 +48,6 @@ class ICal
         $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         
         $lines = $this->unfold($lines);
-        echo("<pre>"); print_r($lines); echo("</pre>");
 
         if (stristr($lines[0], 'BEGIN:VCALENDAR') === false) {
             return false;
@@ -262,15 +261,15 @@ class ICal
         $extendedEvents = array();
         
         if ($rangeStart === false) {
-            $rangeStart = new DateTime();
+            $rangeStart = new \DateTime();
         } else {
-            $rangeStart = new DateTime($rangeStart);
+            $rangeStart = new \DateTime($rangeStart);
         }
 
         if ($rangeEnd === false or $rangeEnd <= 0) {
-            $rangeEnd = new DateTime('2038/01/18');
+            $rangeEnd = new \DateTime('2038/01/18');
         } else {
-            $rangeEnd = new DateTime($rangeEnd);
+            $rangeEnd = new \DateTime($rangeEnd);
         }
 
         $rangeStart = $rangeStart->format('U');

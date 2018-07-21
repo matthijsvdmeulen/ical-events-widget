@@ -116,7 +116,6 @@ class iCal_Events extends WP_Widget {
 
 		$iCal = new ical($iCalURI);
 		$iCalEvents = $iCal->eventsFromRange( $showEventRangeDateFrom, $showEventRangeDateTo );
-		echo('<pre>'); print_r($iCal); echo('</pre>');
 
 		if (!$iCalEvents)
 			return false;
