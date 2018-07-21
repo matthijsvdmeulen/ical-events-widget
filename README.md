@@ -1,10 +1,15 @@
 # iCal Events Widget
 
 Contributors: matthijsvdmeulen, phranck
+
 Donate link: http://jmvdmeulen.nl
+
 Tags: icalendar, ical, plugin, widget, events, rfc2445, iCalEvents, ics, Google Calendar
+
 Requires at least: 3.1
+
 Tested up to: 4.9.7
+
 Stable tag: 1.0
 
 This widget shows you upcoming events for a configurable iCal .ics file or URL.
